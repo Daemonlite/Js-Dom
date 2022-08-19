@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="script.js" defer></script>
+    <title>Dom manipulation</title>
+    <style>
+        ul{
+        list-style: none;}
+        /* styling for revealing */
+       .hidden-content{
+        display: none;
+       }
+
+       .reveal-btn{
+        display: block;
+       }
+    </style>
+</head>
+<body>
+ <div class="container">
+ 
+    <div class="btn">
+        <button onclick="alert('i love javascript')">enter</button>
+    </div>
+<br>
+<br>
+  <div class="btn-2">
+    <button>enter</button>
+  </div>
+  <br>
+  <br>
+  <div class="btn-3">
+    <button>enter</button>
+  </div>
+
+ </div>
+
+<br>
+
+<div class="container-2">
+    <button class="reveal-btn">reveal more</button>
+
+    <div class="hidden-content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Laboriosam eligendi laborum repellat reprehenderit esse! 
+        Earum corporis aspernatur aliquam facilis illum, nihil, 
+        error hic excepturi ex pariatur veritatis dolores commodi eum.
+       </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+ <script src="reveal.js"></script>
+
+</body>
+</html>
